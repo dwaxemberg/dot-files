@@ -1,0 +1,11 @@
+
+alias ls='ls -G'
+alias g='git'
+alias la='ls -a'
+
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g .....='../../../..'
+
+#Shows directory name in window on startup and on every directory change
+print -Pn "\e]2;%n@%M: %~\a"
