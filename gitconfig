@@ -1,0 +1,35 @@
+[user]
+	name = Diego Waxemberg
+	email = diego.waxemberg@gmail.com
+[github]
+	user = dwaxemberg
+[log]
+	decorate = short
+[color]
+	ui = true
+[pager]
+	show-branch = true
+	status = true
+[apply]
+	whitespace = fix
+[core]
+	excludesfile = ~/.gitignore
+	pager = less -r
+[push]
+	default = simple
+[alias]
+	aa  = add --all
+	au  = add --update
+	b   = branch
+	bd  = branch -D
+	ci  = commit
+	cm  = commit -m
+	co  = checkout
+	cob = checkout -b
+	pop = stash pop
+	pr  = pull --rebase
+	sl  = stash list
+	ss  = stash save
+	st  = status
+	subsync = submodule sync
+	subup = submodlue update --init
