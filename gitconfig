@@ -27,6 +27,8 @@
 	co  = checkout
 	cob = checkout -b
 	pop = stash pop
+    lf  = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --numstat
+    lg  = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	pr  = pull --rebase
 	sl  = stash list
 	ss  = stash save
