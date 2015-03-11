@@ -34,4 +34,4 @@
 	ss  = stash save
 	st  = status
 	subsync = submodule sync
-	subup = submodlue update --init
+	subup = submodule update --init
